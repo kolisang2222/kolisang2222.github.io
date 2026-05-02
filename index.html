@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kolisang Phatela — Software Engineering</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- Google Fonts: Playfair Display (editorial display) + JetBrains Mono (technical body) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+
+        <!-- ===================== NAVIGATION ===================== -->
+        <nav id="navbar">
+            <div class="nav-inner">
+                <!-- Monogram logo -->
+                <a href="#hero" class="nav-logo">KP<span class="logo-dot">.</span></a>
+
+                <!-- Hamburger for mobile -->
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <!-- Nav links -->
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="https://github.com/kolisang2222" target="_blank" class="nav-cta">GitHub ↗</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ===================== HERO ===================== -->
+        <section id="hero">
+            <!-- Decorative geometric grid lines -->
+            <div class="hero-grid" aria-hidden="true">
+                <div class="grid-line gl-1"></div>
+                <div class="grid-line gl-2"></div>
+                <div class="grid-line gl-3"></div>
+            </div>
+
+            <div class="hero-content">
+                <!-- Small label above name -->
+                <p class="hero-label reveal">[ Software Engineering Student ]</p>
+
+                <!-- Main heading split for staggered animation -->
+                <h1 class="hero-name">
+                    <span class="reveal delay-1">Kolisang</span>
+                    <span class="reveal delay-2 name-italic">Phatela</span>
+                </h1>
+
+                <!-- Tagline -->
+                <p class="hero-tagline reveal delay-3">
+                    Building software that solves real problems —<br />
+                    one line of code at a time.
+                </p>
+
+                <!-- CTA buttons -->
+                <div class="hero-actions reveal delay-4">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+                </div>
+            </div>
+
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator reveal delay-5" aria-hidden="true">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- ===================== ABOUT ===================== -->
+        <section id="about">
+            <div class="container">
+                <!-- Section header with rule -->
+                <div class="section-header reveal">
+                    <span class="section-number">01</span>
+                    <h2 class="section-title">About</h2>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Text content -->
+                    <div class="about-text">
+                        <p class="about-intro reveal delay-1">
+                            I'm a Software Engineering student at Botho University with a deep
+                            passion for crafting clean, efficient software that makes a
+                            difference.
+                        </p>
+                        <p class="about-body reveal delay-2">
+                            From low-level systems and computer architecture to full-stack web
+                            applications and database design, I enjoy working across the entire
+                            technology stack. I believe great software isn't just about making
+                            things work — it's about making them elegant, maintainable, and
+                            meaningful.
+                        </p>
+                        <p class="about-body reveal delay-3">
+                            Currently seeking internship opportunities where I can apply my
+                            academic knowledge to real-world challenges, grow alongside
+                            experienced engineers, and contribute to products that matter.
+                        </p>
+                    </div>
+
+                    <!-- Stats / highlights -->
+                    <div class="about-stats reveal delay-2">
+                        <div class="stat-card">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">BSc</span>
+                            <span class="stat-label">Software Engineering</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Commitment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SKILLS ===================== -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-number">02</span>
+                    <h2 class="section-title">Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- Programming Languages -->
+                    <div class="skill-group reveal delay-1">
+                        <h3 class="skill-group-title">
+                            <span class="skill-icon">⟨/⟩</span>
+                            Programming Languages
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-tag">C++</li>
+                            <li class="skill-tag">Java</li>
+                            <li class="skill-tag">C#</li>
+                        </ul>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-group reveal delay-2">
+                        <h3 class="skill-group-title">
+                            <span class="skill-icon">◈</span>
+                            Web Development
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-tag">HTML</li>
+                            <li class="skill-tag">CSS</li>
+                            <li class="skill-tag">JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-group reveal delay-3">
+                        <h3 class="skill-group-title">
+                            <span class="skill-icon">◉</span>
+                            Databases
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-tag">SQL</li>
+                            <li class="skill-tag">Oracle</li>
+                        </ul>
+                    </div>
+
+                    <!-- Systems Knowledge -->
+                    <div class="skill-group reveal delay-4">
+                        <h3 class="skill-group-title">
+                            <span class="skill-icon">⊞</span>
+                            Systems Knowledge
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-tag">Operating Systems</li>
+                            <li class="skill-tag">Computer Architecture</li>
+                            <li class="skill-tag">Hardware</li>
+                        </ul>
+                    </div>
+
+                    <!-- Other -->
+                    <div class="skill-group reveal delay-5">
+                        <h3 class="skill-group-title">
+                            <span class="skill-icon">✦</span>
+                            Other
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-tag">Communication</li>
+                            <li class="skill-tag">Study Skills</li>
+                            <li class="skill-tag">Problem Solving</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PROJECTS ===================== -->
+        <section id="projects">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-number">03</span>
+                    <h2 class="section-title">Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1: School Management System -->
+                    <article class="project-card reveal delay-1">
+                        <div class="card-inner">
+                            <div class="card-header">
+                                <span class="card-index">001</span>
+                                <div class="card-links">
+                                    <a href="https://github.com/kolisang2222" target="_blank" class="card-link" title="View on GitHub">
+                                        <!-- GitHub icon SVG -->
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="card-link card-arrow" title="View Project">↗</a>
+                                </div>
+                            </div>
+
+                            <h3 class="card-title">School Management System</h3>
+                            <p class="card-desc">
+                                A full-stack web application for managing school operations —
+                                student registration, attendance tracking, grade management, and
+                                staff administration. Designed for clarity and ease of use by
+                                both teachers and administrators.
+                            </p>
+
+                            <div class="card-tech">
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">SQL</span>
+                            </div>
+                        </div>
+                        <!-- Decorative accent bar -->
+                        <div class="card-accent"></div>
+                    </article>
+
+                    <!-- Project 2: C++ Academic Management System -->
+                    <article class="project-card reveal delay-2">
+                        <div class="card-inner">
+                            <div class="card-header">
+                                <span class="card-index">002</span>
+                                <div class="card-links">
+                                    <a href="https://github.com/kolisang2222" target="_blank" class="card-link" title="View on GitHub">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="card-link card-arrow" title="View Project">↗</a>
+                                </div>
+                            </div>
+
+                            <h3 class="card-title">C++ Academic Management System</h3>
+                            <p class="card-desc">
+                                A console-based application built in C++ that handles student
+                                records, course enrollment, GPA calculation, and academic
+                                reporting. Demonstrates strong grasp of OOP principles, data
+                                structures, and file I/O operations.
+                            </p>
+
+                            <div class="card-tech">
+                                <span class="tech-badge">C++</span>
+                                <span class="tech-badge">OOP</span>
+                                <span class="tech-badge">File I/O</span>
+                                <span class="tech-badge">Data Structures</span>
+                            </div>
+                        </div>
+                        <div class="card-accent"></div>
+                    </article>
+
+                    <!-- Project 3: Oracle Database Project -->
+                    <article class="project-card reveal delay-3">
+                        <div class="card-inner">
+                            <div class="card-header">
+                                <span class="card-index">003</span>
+                                <div class="card-links">
+                                    <a href="https://github.com/kolisang2222" target="_blank" class="card-link" title="View on GitHub">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="card-link card-arrow" title="View Project">↗</a>
+                                </div>
+                            </div>
+
+                            <h3 class="card-title">Oracle Database Design Project</h3>
+                            <p class="card-desc">
+                                A relational database system designed and implemented using Oracle
+                                SQL, featuring normalized schema design, complex stored procedures,
+                                triggers, and optimized queries. Covers entity-relationship
+                                modeling through to production-ready implementation.
+                            </p>
+
+                            <div class="card-tech">
+                                <span class="tech-badge">Oracle</span>
+                                <span class="tech-badge">SQL</span>
+                                <span class="tech-badge">PL/SQL</span>
+                                <span class="tech-badge">ER Modeling</span>
+                            </div>
+                        </div>
+                        <div class="card-accent"></div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CONTACT ===================== -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-number">04</span>
+                    <h2 class="section-title">Contact</h2>
+                </div>
+
+                <div class="contact-layout">
+                    <!-- Left: CTA text -->
+                    <div class="contact-text reveal delay-1">
+                        <p class="contact-headline">
+                            Let's build something<br /><em>together.</em>
+                        </p>
+                        <p class="contact-sub">
+                            I'm actively looking for internship opportunities. If you have an
+                            opening or just want to connect, my inbox is always open.
+                        </p>
+                        <a href="mailto:kolisang.phatela@bothouniversity.com" class="btn btn-primary contact-btn">
+                            Say Hello ✉
+                        </a>
+                    </div>
+
+                    <!-- Right: Contact links -->
+                    <div class="contact-links reveal delay-2">
+                        <!-- Email -->
+                        <a href="mailto:kolisang.phatela@bothouniversity.com" class="contact-item">
+                            <span class="contact-item-icon">
+                                <!-- Email icon -->
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="m22 7-10 7L2 7"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <span class="contact-item-label">Email</span>
+                                <span class="contact-item-value">kolisang.phatela@bothouniversity.com</span>
+                            </div>
+                            <span class="contact-item-arrow">→</span>
+                        </a>
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/kolisang2222" target="_blank" class="contact-item">
+                            <span class="contact-item-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <span class="contact-item-label">GitHub</span>
+                                <span class="contact-item-value">kolisang2222</span>
+                            </div>
+                            <span class="contact-item-arrow">→</span>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/kolisang-phatela-4088bb398/" target="_blank" class="contact-item">
+                            <span class="contact-item-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <span class="contact-item-label">LinkedIn</span>
+                                <span class="contact-item-value">Kolisang Phatela</span>
+                            </div>
+                            <span class="contact-item-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== FOOTER ===================== -->
+        <footer id="footer">
+            <div class="container footer-inner">
+                <span class="footer-logo">KP<span class="logo-dot">.</span></span>
+                <p class="footer-copy">
+                    © 2025 Kolisang Phatela. Designed &amp; built with care.
+                </p>
+                <a href="#hero" class="footer-back">Back to top ↑</a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
